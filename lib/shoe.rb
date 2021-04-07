@@ -20,6 +20,6 @@ class Shoe
         if brand.each do |b| b.include?(unique_brands)
 end
           BRANDS << brand
-      
+
   end
 end
