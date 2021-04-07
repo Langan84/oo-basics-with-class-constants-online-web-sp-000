@@ -18,7 +18,7 @@ class Shoe
   def brand=(brand)
     @brand= brand
         if brand.include?(unique_brands)
-
+binding.pry
           BRANDS << brand
       end
   end
