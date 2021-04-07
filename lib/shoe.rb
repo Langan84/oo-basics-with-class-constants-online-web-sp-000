@@ -9,15 +9,10 @@ class Shoe
     @brand = brand
       BRANDS << brand
       unique_brands = BRANDS.uniq!
-
   end
 
   def cobble
     condition = "new"
     puts "Your shoe is as good as new!"
   end
-
-
-def brand
-  if brand.include?
 end
