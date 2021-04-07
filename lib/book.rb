@@ -16,5 +16,5 @@ class Book
     @genre= genre
     GENRE << genre
   end
-  
+
 end
