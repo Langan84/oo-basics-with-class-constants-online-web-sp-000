@@ -17,7 +17,7 @@ class Shoe
 
   def brand=(brand)
     @brand= brand
-        if brand.include?(unique_brands)
+        if brand.each do |b| b.include?(unique_brands)
 
           BRANDS << brand
       end
