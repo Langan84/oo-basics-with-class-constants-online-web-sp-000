@@ -15,11 +15,14 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
 
+
+
+  
   def brand=(brand)
     @brand= brand
-        if brand.include.uniq!
+        if brand.include?.uniq!
 
           BRANDS << brand
-end
+        end
   end
 end
